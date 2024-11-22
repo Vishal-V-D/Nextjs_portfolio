@@ -2,15 +2,20 @@ import { FaLocationArrow } from "react-icons/fa6";
 import { projects } from "@/data";
 import { PinContainer } from "./ui/Pin";
 import Image from "next/image"; // Import Image component from next/image
+import { Boxes } from "@/components/ui/background-boxes";
 
 const RecentProjects = () => {
   return (
-    <div className="py-20" id="projects">
-      <h1 className="heading">
+    <div className="py-20 relative" id="projects">
+      {/* Add Boxes component here for background */}
+      <Boxes className="absolute inset-0 z-0" /> 
+
+      <h1 className="heading z-10 relative">
         A small selection of{" "}
         <span className="text-cyan-400">recent projects</span>
       </h1>
-      <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
+      
+      <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10 z-10 relative">
         {projects.map((item) => (
           <div
             className="lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw]"

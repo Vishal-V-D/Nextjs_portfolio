@@ -3,6 +3,7 @@ import MagicButton from "./MagicButton";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 import Image from "next/image"; // Import Image component from next/image
+import { Cover } from "@/components/cover";
 
 const Hero: React.FC = () => {
   return (
@@ -23,8 +24,9 @@ const Hero: React.FC = () => {
            *
            *  change md:text-6xl, add more responsive code
            */}
+
           <TextGenerateEffect
-            words="Hello, I&apos;m Vishal V D , a skilled software engineer and cybersecurity maven."
+            words=" Hello,I&apos;m Vishal V D a skilled software engineer and cybersecurity maven."
             className="text-left text-[32px] sm:text-[40px] md:text4xl lg:text-6xl"
           />
 
