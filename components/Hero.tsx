@@ -7,7 +7,7 @@ import { Cover } from "@/components/cover";
 
 const Hero: React.FC = () => {
   return (
-    <div className="relative pb-20 pt-36" id="about">
+    <div className="relative pb-20 pt-36" >
       {/* background grid */}
       <div className="w-full absolute left-0 -bottom-72 min-h-96">
         <img
@@ -26,16 +26,12 @@ const Hero: React.FC = () => {
            */}
 
           <TextGenerateEffect
-            words=" Hello,I&apos;m Vishal V D a skilled software engineer and cybersecurity maven."
+            words=" Hello,I&apos;m Vishal V D a skilled software engineer and AI maven."
             className="text-left text-[32px] sm:text-[40px] md:text4xl lg:text-6xl"
           />
 
           <p className="text-left md:tracking-wider mb-4 text-sm md:text-lg lg:text-xl">
-            As a passionate advocate for digital security and innovation, I
-            thrive on the dynamic challenges of the tech world. With a robust
-            background in software engineering and a keen focus on cybersecurity,
-            I am dedicated to crafting resilient solutions that propel businesses
-            forward securely and efficiently.
+          I am a software engineer specializing in AI-driven solutions, cloud technologies, and innovative software development, shaping the future of intelligent systems.
           </p>
 
           <div className="flex space-x-4">
@@ -58,7 +54,7 @@ const Hero: React.FC = () => {
 
         {/* Add Image with Saturn-like Ring */}
         <div className="mt-10 lg:mt-0 relative flex justify-center items-center lg:pl-20">
-          <div className="w-40 h-40 md:w-64 md:h-64 lg:w-80 lg:h-80 relative">
+          <div className="w-40 h-40 md:w-80 md:h-80 lg:w-80 lg:h-80 relative">
             {/* Saturn-like Ring */}
             <svg viewBox="0 0 100 100" className="w-full h-full absolute z-0">
               <circle cx="50" cy="69" r="56" stroke="cyan" strokeWidth="1" fill="none" />

@@ -101,41 +101,26 @@ export const projects = [
     img: "/anime.jpg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     link: "https://github.com/Vishal-V-D/Anime-web.git",
+  },{
+    id: 5,
+    title: "Healix AI Medical Assistant",
+    des: "Healix AI Medical Assistant offers advanced health management through AI-driven medical advice, symptom tracking, and personalized healthcare recommendations. With a seamless interface and real-time insights, it aims to provide smarter, more efficient health management.",
+    img: "/healix.jpg", // Replace with your specific image for Healix
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"], // Icons related to technologies used
+    link: "https://github.com/Vishal-V-D/Healix-AI.git", // Replace with your repository link
   },
+  {
+    id: 6,
+    title: "Eventify Event Manager",
+    des: "Eventify is a comprehensive event management platform designed to streamline the planning and execution of events. It includes features for scheduling, ticketing, real-time updates, and attendee management, making it easier for organizers to deliver seamless and impactful events.",
+    img: "/eventify.jpg", // Replace with your specific image for Eventify
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"], // Icons related to technologies used
+    link: "https://github.com/Vishal-V-D/Eventify.git", // Replace with your repository link
+  }
+  
 ];
 
-export const testimonials = [
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-];
+
 
 export const companies = [
   {
@@ -200,7 +185,7 @@ export const workExperience = [
     thumbnail: "/exp4.svg",
   }, {
     id: 5,
-    title: "Networking Essentials - Cisco",
+    title: "Networking Intern- Cisco",
     desc: "Developed and maintained network infrastructure solutions using Cisco technologies.",
     thumbnail: "/exp1.svg",
   },
@@ -209,7 +194,18 @@ export const workExperience = [
     title: "Campus Ambassador Intern at IIM Bangalore",
     desc: "As a Campus Ambassador Intern at IIM Bangalore,I was responsible with my leadership skills.",
     thumbnail: "/exp3.svg"
-  }
+  },{
+    id: 7,
+    title: "Android App Developer Intern at EduSkills",
+    desc: "Contributed to the development of innovative mobile applications, utilizing Android technologies to enhance functionality and user experience.",
+    thumbnail: "/exp1.svg",
+  },{
+    id: 8,
+    title: "Cybersecurity Intern at Palo Alto Networks",
+    desc: "Developed expertise in advanced cybersecurity practices, ensuring secure environments for digital ecosystems as part of EduSkills and Palo Alto Networks.",
+    thumbnail: "/exp4.svg",
+  },
+
 ];
 
 export const socialMedia = [

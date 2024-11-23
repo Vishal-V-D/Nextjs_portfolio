@@ -1,16 +1,17 @@
 import React from "react";
-
+import { Boxes } from "@/components/ui/background-boxes";
 import { workExperience } from "@/data";
 import { Button } from "./ui/MovingBorders";
 
 const Experience = () => {
   return (
     <div className="py-20 w-full" id="intern">
+       <Boxes className="absolute inset-0 z-0" /> 
       <h1 className="heading">
         My <span className="text-cyan-400">Internship experience</span>
-      </h1>
+      </h1>  
 
-      <div className="w-full mt-12 grid lg:grid-cols-4 grid-cols-1 gap-10">
+      <div className="w-full mt-12 grid lg:grid-cols-4 grid-cols-1 gap-10"> 
         {workExperience.map((card) => (
           <Button
             key={card.id}

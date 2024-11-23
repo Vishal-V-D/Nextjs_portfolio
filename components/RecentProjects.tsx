@@ -2,13 +2,13 @@ import { FaLocationArrow } from "react-icons/fa6";
 import { projects } from "@/data";
 import { PinContainer } from "./ui/Pin";
 import Image from "next/image"; // Import Image component from next/image
-import { Boxes } from "@/components/ui/background-boxes";
+
 
 const RecentProjects = () => {
   return (
     <div className="py-20 relative" id="projects">
       {/* Add Boxes component here for background */}
-      <Boxes className="absolute inset-0 z-0" /> 
+   
 
       <h1 className="heading z-10 relative">
         A small selection of{" "}
@@ -39,7 +39,7 @@ const RecentProjects = () => {
                   alt="cover"
                   className="z-10 absolute bottom-0"
                   width={500}
-                  height={300}
+                  height={400}
                 />
               </div>
 
@@ -76,7 +76,7 @@ const RecentProjects = () => {
                   <p className="flex lg:text-xl md:text-xs text-sm text-yellow-300">
                     Check My Github
                   </p>
-                  <FaLocationArrow className="ms-3" color="#FFC800" />
+                  <FaLocationArrow className="ms-3" color="#37E1FFFF" />
                 </a>
               </div>
             </PinContainer>
